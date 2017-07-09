@@ -2,13 +2,13 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>ASC婚礼音乐推荐</title>
-        <script src="https://unpkg.com/vue"></script>
-        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/music.css" media="screen" type="text/css" />
+        <title>联系我们</title>
+        <link rel="stylesheet" href="css/tab.css" media="screen" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
         <link rel="stylesheet" type="text/css" href="css/normalize_1.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/set1.css" />
+        <link rel="stylesheet" type="text/css" href="css/ripple.css">
         <style>
             html, body{
                 padding:0px;
@@ -70,33 +70,33 @@
             }</style>
     </head>
     <body background="img/5-121106095005.gif">
-                    <div style="text-align:center;clear:both">
-                <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
-                <script src="/follow.js" type="text/javascript"></script>
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div class="content">
+            <div class="grid">
+                <figure class="effect-layla">
+                    <img src="images/back3.jpg" alt="img06"/>
+                    <figcaption>
+                        <p>欢迎来到ASC婚礼纪.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
             </div>
-            <div class="content">
-                <div class="grid">
-                    <figure class="effect-layla">
-                        <img src="images/back2.jpg" alt="img06"/>
-                        <figcaption>
-                            <p>欢迎来到ASC婚礼纪.</p>
-                            <a href="#">View more</a>
-                        </figcaption>
-                    </figure>
-                </div>
-            </div>
+        </div>
 
-            <div style="text-align:center;clear:both">
-                <script src="/gg_bd_ad_720x90-2.js" type="text/javascript"></script>
-                <script src="/follow.js" type="text/javascript"></script>
-            </div>
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90-2.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
         <script type="text/javascript">
-        // For Demo purposes only (show hover effect on mobile devices)
-                    [].slice.call(document.querySelectorAll('a[href="#"')).forEach(function (el) {
-                        el.addEventListener('click', function (ev) {
-                            ev.preventDefault();
-                        });
-                    });
+            // For Demo purposes only (show hover effect on mobile devices)
+            [].slice.call(document.querySelectorAll('a[href="#"')).forEach(function (el) {
+                el.addEventListener('click', function (ev) {
+                    ev.preventDefault();
+                });
+            });
         </script>
         <div class="container">
             <table width="800" border="0" cellspacing="0" cellpadding="0">
@@ -112,59 +112,40 @@
                     <td width="94"> <div class="link">
                             <div class="text"><a href="Photo.html">婚礼照片墙</a></div></div></td>
                     <td width="84">  <div class="link">
-                            <div class="text"><a href="About.html">联系我们</a></div>
+                            <div class="text">联系我们</div>
                         </div></td>
                 </tr>
             </table></div>
-        <script>
-            //For Demo only
-            var links = document.getElementsByClassName('link');
-            for (var i = 0; i <= links.length; i++)
-                addClass(i);
-            function addClass(id) {
-                setTimeout(function () {
-                    if (id > 0)
-                        links[id - 1].classList.remove('hover');
-                    links[id].classList.add('hover');
-                }, id * 750);
-            }
-        </script>
         <div style="text-align:center;clear:both;">
             <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
             <script src="/follow.js" type="text/javascript"></script>
         </div>
-        <div style="background-image:url('images/list.jpg');background-position-x:center;background-repeat: no-repeat">
-        <ul class="live" id="live">
-            <template v-for="n in 10">  
-                <li>歌名：{{names[n-1]}}
-                    <br>原唱：{{singers[n-1]}}</li>
-            </template>
-        </ul>
-        </div>
-        <script>
-            var MYDATA = {} //定义全局变量 MYDATA
-            url = "music.jsp";
-            $.getJSON(url, parse_data);
-            function parse_data(musicjson) {
-                MYDATA = musicjson;//将数据复制到全局变量 mydata 中, 便于在console中调试
-                console.log(musicjson);
-                var names = []
-                var singers = []
-                var alts = []
-                for (var i = 0; i < 10; i++) {
-                    names[i] = MYDATA.musics[i].title
-                    singers[i] = MYDATA.musics[i].author[[0]].name
-                    alts[i] = MYDATA.musics[i].alt
-                }
-                var example1 = new Vue({
-                    el: '#live',
-                    data: {
-                        names :names,
-                        singers :singers,
-                        alts :alts
-                    }
-                })
-            }
-        </script>       
+        <article class="tabs">
+            <input checked id="one" name="tabs" type="radio">
+            <label for="one">中文</label>
+            <input id="two" name="tabs" type="radio" value="Two">
+            <label for="two">English</label>
+            <div class="panels">
+                <div class="panel">
+                    <h2>团队信息</h2>
+                    <p>团队名称：非单身贵族（ASC）</p>
+                    <p>团队人员：吴忻冉 陈依滢 吴程睿</p>
+                    <br>
+                    <h2>联系我们</h2>
+                    <p>通讯地址：中国传媒大学经管学部</p>
+                    <br>
+                    <h2>我们将一直前进</h2>
+                </div>
+                <div class="panel">
+                    <h2>Team Information</h2>
+                    <p>Name:ASC</p>
+                    <p>Members:Angel Wu,YY Chen,Charlie Wu</p>
+                    <h2>Contact us:</h2>
+                    <p>Address:Communication University of China,Department of economics and management</p>
+                    <br>
+                    <h2>We're keeping moving</h2>
+                </div>
+            </div>
+        </article>
     </body>
 </html>
