@@ -37,55 +37,13 @@ public class DBUtils {
 
     public ArrayList getDetails() {
         ArrayList details = new ArrayList();
-        int random = (int) (Math.random() * 10);
-        String id3 = "00" + Integer.toString(random);
-        String id6 = "00" + Integer.toString(9 - random);
-        String id2 = "10" + Integer.toString(random);
-        String id5 = "10" + Integer.toString(9 - random);
-        String id1 = "20" + Integer.toString(random);
-        String id4 = "20" + Integer.toString(9 - random);
         try {
-            ResultSet rs1 = statement.executeQuery("select * from ASC_image where id = '" + id1 + "'");
-            while (rs1.next()) {
-                String item1[] = new String[2];
-                item1[0] = rs1.getString(2).trim();
-                item1[1] = rs1.getString(3).trim();
-                details.add(item1);
-            }
-            ResultSet rs2 = statement.executeQuery("select * from ASC_image where id = '" + id2 + "'");
-            while (rs2.next()) {
-                String item2[] = new String[2];
-                item2[0] = rs2.getString(2).trim();
-                item2[1] = rs2.getString(3).trim();
-                details.add(item2);
-            }
-            ResultSet rs3 = statement.executeQuery("select * from ASC_image where id = '" + id3 + "'");
-            while (rs3.next()) {
-                String item3[] = new String[2];
-                item3[0] = rs3.getString(2).trim();
-                item3[1] = rs3.getString(3).trim();
-                details.add(item3);
-            }
-            ResultSet rs4 = statement.executeQuery("select * from ASC_image where id = '" + id4 + "'");
-            while (rs4.next()) {
-                String item4[] = new String[2];
-                item4[0] = rs4.getString(2).trim();
-                item4[1] = rs4.getString(3).trim();
-                details.add(item4);
-            }
-            ResultSet rs5 = statement.executeQuery("select * from ASC_image where id = '" + id5 + "'");
-            while (rs5.next()) {
-                String item5[] = new String[2];
-                item5[0] = rs5.getString(2).trim();
-                item5[1] = rs5.getString(3).trim();
-                details.add(item5);
-            }
-            ResultSet rs6 = statement.executeQuery("select * from ASC_image where id = '" + id6 + "'");
-            while (rs6.next()) {
-                String item6[] = new String[2];
-                item6[0] = rs6.getString(2).trim();
-                item6[1] = rs6.getString(3).trim();
-                details.add(item6);
+            ResultSet rs = statement.executeQuery("select * from ASC_image");
+            while (rs.next()) {
+                String item[] = new String[2];
+                item[0] = rs.getString(2).trim();
+                item[1] = rs.getString(3).trim();
+                details.add(item);
             }
         } catch (SQLException ex) {
             Logger.getLogger(DBUtils.class.getName()).log(Level.SEVERE, null, ex);

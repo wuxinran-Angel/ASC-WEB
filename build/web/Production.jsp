@@ -3,7 +3,7 @@ pageEncoding="UTF-8" import="java.util.ArrayList, com.shiyanlou.photo.domain.*,o
 taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%><%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%><%
     
     response.addHeader("Access-Control-Allow-Origin", "*");
-    Image[] image = new Image[6];
+    Image[] image = new Image[30];
     Image ii=new Image();
     DBUtils db = new DBUtils();
     ArrayList list = new ArrayList();
