@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <script src="https://unpkg.com/vue"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- 还是使用 jquery 发起ajax json请求 -->
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <title>ASC婚品展示</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize_1.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/set1.css" />
+        <link rel="stylesheet" type="text/css" href="css/ripple.css">
+        <style>
+            html, body{
+                padding:0px;
+                margin:0px;
+                font-family: 'Raleway', sans-serif;
+                color:#1f1f1f;
+                height:100%;
+            }
+            body{
+                background:url("images/5-121106095005.gif");
+            }
+            .container{
+                max-width:820px;
+                background:rgba(0, 0, 0, 0.75);
+                margin:0px auto;
+                padding:0px 0px 0px 0px;
+                border:1px solid #111;
+                border-radius:4px;
+                box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+            }
+            .link{
+                font-size:16px;
+                font-weight:300;
+                text-align:center;
+                position:relative;
+                height:40px;
+                line-height:40px;
+                margin-top:0px;
+                overflow:hidden;
+                width:90%;
+                margin-left:5%;
+                cursor:pointer;
+            }
+            .link:after{
+                content: '';
+                position:absolute;
+                width:80%;
+                border-bottom:1px solid rgba(255, 255, 255, 0.5);
+                bottom:50%;
+                left:-100%;
+                transition-delay: all 0.5s;
+                transition: all 0.5s;
+            }
+            .link:hover:after,
+            .link.hover:after{
+                left:100%;
+            }
+            .link .text{
+                text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+                transition:all 0.75s;
+                transform:translateY(100%) translateZ(0);
+                transition-delay:all 0.25s;
+            }
+            .link:hover .text,
+            .link.hover .text{
+                text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+                transform:translateY(0%) translateZ(0) scale(1.1);
+                font-weight:600;
+            }</style>
+    </head>
+    <body background="img/5-121106095005.gif">
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div class="content">
+            <div class="grid">
+                <figure class="effect-layla">
+                    <img src="images/back3.jpg" alt="img06"/>
+                    <figcaption>
+                        <p>欢迎来到ASC婚礼纪.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90-2.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <script type="text/javascript">
+            // For Demo purposes only (show hover effect on mobile devices)
+            [].slice.call(document.querySelectorAll('a[href="#"')).forEach(function (el) {
+                el.addEventListener('click', function (ev) {
+                    ev.preventDefault();
+                });
+            });
+        </script>
+        <div class="container">
+            <table width="800" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="73"><div class="link">
+                            <div class="text"><a href="index.html">首页</a></div></div></td>
+                    <td width="77"> <div class="link">
+                            <div class="text"><a href="Production.html">婚品展示</a></div></div></td>
+                    <td width="94">  <div class="link">
+                            <div class="text"><a href="music.html">婚礼音乐</a></div></div></td>
+                    <td width="95">  <div class="link">
+                            <div class="text">项目案例</div></div></td>
+                    <td width="94"> <div class="link">
+                            <div class="text"><a href="Photo.html">婚礼照片墙</a></div></div></td>
+                    <td width="84">  <div class="link">
+                            <div class="text">联系我们</div>
+                        </div></td>
+                </tr>
+            </table></div>
+        <script>
+            //For Demo only
+            var links = document.getElementsByClassName('link');
+            for (var i = 0; i <= links.length; i++)
+                addClass(i);
+            function addClass(id) {
+                setTimeout(function () {
+                    if (id > 0)
+                        links[id - 1].classList.remove('hover');
+                    links[id].classList.add('hover');
+                }, id * 750);
+            }
+        </script>
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div class="demo">
+            <div class="container">
+                <ul id="example-1">
+                    <template v-for="n in 6">  <!--采用 template 模板进行群体渲染下面的所有内容 -->
+                        <div class="col-md-4 col-sm-6">
+                            <div class="box">
+                                <div class="box-img">
+                                    <img :src="images[n-1]" alt="">
+                                </div>
+                                <div class="box-content">
+                                    <h4 class="title">LOVE</h4>
+                                    <p class="description" id="11">{{discriptions[n-1]}}</p>
+                                    <ul class="social-links">
+                                        <li><a href="#" class="fa fa-qq"></a></li>
+                                        <li><a href="#" class="fa fa-weibo"></a></li>
+                                        <li><a href="#" class="fa fa-weixin"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </ul>
+                <div align="center"><a class="btn btn-default btn-lg ripple" onclick="change">换一批</a></div>
+            </div>
+        </div>
+        <div style="text-align:center;clear:both;margin-top:80px">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+
+        <script>
+            var MYDATA = {} //定义全局变量 MYDATA
+            url = "Production.jsp"
+            $.getJSON(url, parse_data)
+            function parse_data(imagejson) {
+                MYDATA = imagejson; //将数据复制到全局变量 mydata 中, 便于在console中调试
+                console.log(imagejson)
+                var images = []
+                var discriptions = []
+                for (var i = 0; i < 6; i++) {
+                    images[i] = MYDATA[i].url;
+                    discriptions[i] = MYDATA[i].description;
+                }
+                // 使用  vue 绑定模板
+                var example1 = new Vue({
+                    el: '#example-1',
+                    data: {
+                        images: images,
+                        discriptions: discriptions,
+                    }
+                    /*methods:{
+                     change:function(event){
+                     url = "api.jsp";
+                     $.getJSON(url, parse_data);
+                     } 
+                     }*/
+                })
+            }
+            /*
+             function refresh()
+             {
+             var xmlhttp;
+             if (window.XMLHttpRequest)
+             {
+             // IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+             xmlhttp = new XMLHttpRequest();
+             } else
+             {
+             // IE6, IE5 浏览器执行代码
+             xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+             }
+             xmlhttp.onreadystatechange = function ()
+             {
+             if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+             {
+             document.getElementById("demo").innerHTML = xmlhttp.responseText;
+             }
+             }
+             xmlhttp.open("GET", "http://localhost:8080/WM-1/PhotoWall.html", true);
+             xmlhttp.send();
+             }
+             /*
+             function refresh(){
+             var MYDATA = {}//定义全局变量 MYDATA
+             url = "api.jsp";
+             $.getJSON(url, parse_data);
+             function parse_data(imagejson) {
+             MYDATA = imagejson; //将数据复制到全局变量 mydata 中, 便于在console中调试
+             console.log(imagejson)
+             var images = []
+             var discriptions=[]
+             for (var i = 0; i < 6; i++) {
+             images[i] = MYDATA[i].url;
+             discriptions[i]=MYDATA[i].description;
+             }
+             // 使用  vue 绑定模板
+             var example1 = new Vue({
+             el: '#example-1',
+             data: {
+             images: images,
+             discriptions:discriptions,
+             }
+             })
+             }
+             reset();}
+             /*
+             function reset(){
+             $.ajax({
+             url='api.jsp',
+             type:'get',
+             data:{},
+             success:function(result){},
+             })
+             }*/
+        </script>
+    </body>
+</html>

@@ -1,0 +1,994 @@
+{
+    "total": 70,
+    "count": 20,
+    "start": 0,
+    "musics": [{
+            "image": "https://img3.doubanio.com/spic/s3128553.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "林隆璇"
+                }, {
+                    "name": "戴娜華盛頓"
+                }, {
+                    "name": "比莉哈樂黛"
+                }, {
+                    "name": "Harry Belafonte"
+                }, {
+                    "name": "Dean Martin"
+                }, {
+                    "name": "Edith Piaf"
+                }, {
+                    "name": "Jay McShann"
+                }, {
+                    "name": "Billie Holiday"
+                }, {
+                    "name": "伊迪絲琵雅芙"
+                }, {
+                    "name": "艾兒莎基特"
+                }, {
+                    "name": "傑麥克湘"
+                }],
+            "rating": {
+                "average": "8.3",
+                "min": 0,
+                "max": 10,
+                "numRaters": 168
+            },
+            "alt": "https://music.douban.com/subject/3102237/",
+            "mobile_link": "https://m.douban.com/music/subject/3102237/",
+            "id": "3102237",
+            "title": "超完美婚禮 / Perfect Wedding",
+            "tags": [{
+                    "count": 42,
+                    "name": "wedding"
+                }, {
+                    "count": 32,
+                    "name": "群星.-.[超完美婚礼].专辑.(MP3)"
+                }, {
+                    "count": 28,
+                    "name": "婚礼"
+                }, {
+                    "count": 23,
+                    "name": "合辑"
+                }, {
+                    "count": 17,
+                    "name": "欧美"
+                }, {
+                    "count": 15,
+                    "name": "经典"
+                }, {
+                    "count": 9,
+                    "name": "群星"
+                }, {
+                    "count": 7,
+                    "name": "Jazz"
+                }],
+            "attrs": {
+                "singer": ["林隆璇", "戴娜華盛頓", "比莉哈樂黛", "Harry Belafonte", "Dean Martin", "Edith Piaf", "Jay McShann", "Billie Holiday", "伊迪絲琵雅芙", "艾兒莎基特", "傑麥克湘"],
+                "publisher": ["金革唱片"],
+                "media": ["1CD"],
+                "title": ["超完美婚禮 / Perfect Wedding"],
+                "tracks": ["1、Anniversaries 紀念日 / 林隆璇 /\n2、Close To You 靠近你 / 威尼斯喬凡尼樂團 / 木匠兄妹1970年冠軍曲\n3、Mendelssohn: Wedding March 孟德爾頌：結婚進行曲　選自《仲夏夜之夢》\n4、Wagner: Wedding March 華格納：婚禮進行曲 選自《羅安格林》\n5、Gounod:Ave Maria 古諾：聖母頌(改編自巴哈平均律)\n6、Bach: Cello Suite No.1, Prelude 巴哈：第一號無伴奏大提琴組曲，前奏曲\n7、Pachelbel: Canon in D major 帕海貝爾：卡農\n8、Elgar: Salut d'amour, Op. 12 艾爾加：愛的禮讚\n9、Tea for Two 雙人午茶 / 亞特泰坦\n10、Somebody Bad Stole de Wedding Bell 哪個壞蛋偷走結婚鈴鐺？/艾兒莎基特\n11、Man Smart (Woman Smarter) 男人聰明(女人更聰明) / 貝拉方堤\n12、La Vie en Rose 玫瑰人生 / 伊迪絲皮雅芙\n13、You Belong to Me 你屬於我 / 狄恩馬丁\n14、Daddy's Little Girl 米爾斯兄弟 / 老爸的小女孩\n15、As Time Goes By 比莉哈樂黛 / 時光飛逝 /\n16、What a Wonderful World 美好的世界 / 傑麥克湘\n17、Puccini: O mio babbino caro / 普契尼：喔！親愛的父親"],
+                "pubdate": ["20080528"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s2054710.jpg",
+            "alt_title": "优美的婚礼旋律",
+            "author": [{
+                    "name": "Various Artists"
+                }],
+            "rating": {
+                "average": "8.4",
+                "min": 0,
+                "max": 10,
+                "numRaters": 43
+            },
+            "alt": "https://music.douban.com/subject/1970422/",
+            "mobile_link": "https://m.douban.com/music/subject/1970422/",
+            "id": "1970422",
+            "title": "Beautiful Wedding Melodies",
+            "tags": [{
+                    "count": 24,
+                    "name": "wedding"
+                }, {
+                    "count": 15,
+                    "name": "婚礼"
+                }, {
+                    "count": 12,
+                    "name": "classical"
+                }, {
+                    "count": 7,
+                    "name": "古典音乐"
+                }, {
+                    "count": 6,
+                    "name": "古典"
+                }, {
+                    "count": 5,
+                    "name": "Classical"
+                }, {
+                    "count": 4,
+                    "name": "Classic"
+                }, {
+                    "count": 2,
+                    "name": "合辑"
+                }],
+            "attrs": {
+                "singer": ["Various Artists"],
+                "publisher": ["DG"],
+                "media": ["CD"],
+                "title": ["Beautiful Wedding Melodies"],
+                "discs": ["1"],
+                "version": ["正版"],
+                "tracks": ["专辑曲目：\n01.WEDDING BELLS\n《婚礼钟声》\n02.INTRADA FROM CONCERTO FOR 3 TRUMPETS (TELEMANN)\n泰勒曼《3把小号协奏曲》引子\n03.TOCCATA IN D MINOR (JS BACH)\n巴赫《D小调托卡塔》\n04.TREULICH GEFUHRT (BRIDAL CHORUS) FROM LOHENGRIN (WAGNER)\n瓦格纳《罗恩格林》婚礼合唱\n05.ANDANTE FROM SONATA FOR TRUMPET AND ORGAN IN C MAJOR (VIVIANI)\nViviani《C大调小号和管风琴奏鸣曲》行板\n06.SICH UBEN IM LIEBEN FROM WEDDING CANTATA BWV202 (JS BACH)\n巴赫《婚礼康塔塔》\n07.AIR 'ON THE G STRING' FROM ORCHESTRAL SUITE NO.3 IN D MAJOR BWV1068 (JS BACH)\n巴赫《D大调第3乐队组曲》咏叹调\n08.WIR WINDEN DIR DEN JUNGFERNKRANZ FROM DER FREISCHUTZ (WEBER)\n韦伯《自由射手》用淡紫色丝绸为新娘编出花冠\n09.ALLEGRO FROM SONATA FOR TRUMPET AND ORGAN IN C MAJOR (VIVIANI)\nViviani《C大调小号和管风琴奏鸣曲》快板\n10.AVE MARIA (JS BACH/GOUNOD)\n巴赫《啊，玛丽亚》圣母颂\n11.TOCCATA FROM SYMPHONY NO.5 OP.42 NO.1 (WIDOR)\n维多尔《第5管风琴交响曲》托卡塔\n12.WEDDING MARCH FROM A MIDSUMMER NIGHT'S DREAM (MENDELSSOHN)\n门德尔松《仲夏夜之梦》婚礼进行曲\n13.WEDDING DAY AT TROLDHAUGEN OP.65 NO.6 (GRIEG)\n格里格《特罗尔德豪根别墅的结婚日》之六\n14.INVITATION TO THE DANCE (WEBER)\n韦伯《邀舞》\n15.WALTZ OF THE FLOWERS FROM THE NUTCRACKER (TCHAIKOVSKY)\n柴科夫斯基《胡桃夹子》花之圆舞曲\n16.SCHONE NACHT, DU LIEBESNACHT (BARCAROLLE) FROM LES CONTES D'HOFFMANN (OFFENBACH)\n奥芬巴赫《霍夫曼的故事》威尼斯船歌\n17.VIOLIN ROMANCE NO.1 IN G MAJOR OP.40 (BEETHOVEN)\n贝多芬《G大调第1小提琴浪漫曲》\n18.O FORTUNA FROM CARMINA BURANA (ORFF)\n奥尔夫《啊，命运女神》博伊伦之歌"],
+                "pubdate": ["2001"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s27259837.jpg",
+            "alt_title": "The Best Wedding Songs",
+            "author": [{
+                    "name": "Various Artists"
+                }, {
+                    "name": "林育羣"
+                }, {
+                    "name": "楊丞琳"
+                }, {
+                    "name": "陳芳語"
+                }, {
+                    "name": "王力宏"
+                }, {
+                    "name": "張靓穎"
+                }, {
+                    "name": "莫文蔚"
+                }, {
+                    "name": "王若琳"
+                }, {
+                    "name": "李玟"
+                }, {
+                    "name": "蔡依林"
+                }, {
+                    "name": "彭佳慧"
+                }, {
+                    "name": "張懸"
+                }, {
+                    "name": "蔡旻佑"
+                }, {
+                    "name": "JPM"
+                }, {
+                    "name": "柯有倫"
+                }, {
+                    "name": "林志炫"
+                }, {
+                    "name": "言承旭"
+                }, {
+                    "name": "柯以敏"
+                }, {
+                    "name": "Selina"
+                }],
+            "rating": {
+                "average": "8.2",
+                "min": 0,
+                "max": 10,
+                "numRaters": 79
+            },
+            "alt": "https://music.douban.com/subject/25866496/",
+            "mobile_link": "https://m.douban.com/music/subject/25866496/",
+            "id": "25866496",
+            "title": "婚禮歌手-緣定一生情歌精選",
+            "tags": [{
+                    "count": 27,
+                    "name": "婚礼歌手·缘定一生情歌精选"
+                }, {
+                    "count": 19,
+                    "name": "婚礼"
+                }, {
+                    "count": 10,
+                    "name": "wedding"
+                }, {
+                    "count": 8,
+                    "name": "love"
+                }, {
+                    "count": 6,
+                    "name": "音乐"
+                }, {
+                    "count": 4,
+                    "name": "流行"
+                }, {
+                    "count": 4,
+                    "name": "台湾"
+                }, {
+                    "count": 2,
+                    "name": "索尼"
+                }],
+            "attrs": {
+                "singer": ["Various Artists", "林育羣", "楊丞琳", "陳芳語", "王力宏", "張靓穎", "莫文蔚", "王若琳", "李玟", "蔡依林", "彭佳慧", "張懸", "蔡旻佑", "JPM", "柯有倫", "林志炫", "言承旭", "柯以敏", "Selina"],
+                "publisher": ["SONY MUSIC"],
+                "media": ["CD"],
+                "title": ["婚禮歌手-緣定一生情歌精選"],
+                "discs": ["2"],
+                "version": ["选集"],
+                "tracks": ["CD1\n1.\t人海中遇見你/ 林育羣\n2.\t愛，啟程 / 楊丞琳\n3.\t愛你 / 陳芳語\n4.\t另一個天堂 / 王力宏 & 張靓穎\n5.\tClose To You / 莫文蔚\n6.\tI Love You / 王若琳\n7.\t真情人 / 李玟\n8.\t說愛你 / 蔡依林\n9.\t因為我愛你 / 彭佳慧\n10.\t關於我愛你 / 張懸\n11.\t我的寶貝 / 蔡旻佑\n12.\t因為有你 / JPM\n13.\t戀愛演習 / 柯有倫\n14.\t理想情人 / 楊丞琳\n15.\t這就是愛 / 林志炫\nCD2\n1.\t唯一 / 王力宏\n2.\t一生守候 / 王若琳\n3.\t讓愛作主 / 林志炫\n4.\t就是愛 / 蔡依林\n5.\t幸福的節拍 / 楊丞琳\n6.\t愛在85度C / 李玟\n7.\t我會很愛妳 / 言承旭\n8.\t喜歡 / 張懸\n9.\t柴米油鹽醬醋茶 / 王力宏\n10.\t有你的快樂 / 王若琳\n11.\t愛我 / 柯以敏 & 林志炫\n12.\t你是我心內的一首歌 / 王力宏\tfeat. Selina\n13.\tCRAZY FOR YOU / JPM\n14.\t走在紅毯那一天 / 彭佳慧\n15.\tIt`s A Party / 李玟"],
+                "pubdate": ["2014-04-15"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s4823107.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Various Artists"
+                }],
+            "rating": {
+                "average": "7.9",
+                "min": 0,
+                "max": 10,
+                "numRaters": 49
+            },
+            "alt": "https://music.douban.com/subject/6139664/",
+            "mobile_link": "https://m.douban.com/music/subject/6139664/",
+            "id": "6139664",
+            "title": "Now That's What I Call a Wedding!",
+            "tags": [{
+                    "count": 10,
+                    "name": "2011"
+                }, {
+                    "count": 8,
+                    "name": "wedding"
+                }, {
+                    "count": 8,
+                    "name": "Now"
+                }, {
+                    "count": 7,
+                    "name": "VA"
+                }, {
+                    "count": 6,
+                    "name": "pop"
+                }, {
+                    "count": 5,
+                    "name": "欧美"
+                }, {
+                    "count": 5,
+                    "name": "Pop"
+                }, {
+                    "count": 3,
+                    "name": "EMI"
+                }],
+            "attrs": {
+                "singer": ["Various Artists"],
+                "publisher": ["EMI"],
+                "media": ["CD"],
+                "title": ["Now That's What I Call a Wedding!"],
+                "discs": ["3"],
+                "version": ["专辑"],
+                "tracks": ["CD 1\n1. Bill Medley & Jennifer Warnes - (I've Had) The Time Of My Life\n2. Wet Wet Wet - Love Is All Around\n3. Robbie Williams - Angels\n4. The Temptations - My Girl\n5. The Dixie Cups - Chapel Of Love\n6. Elvis - Cant Help Falling In Love\n7. Louis Armstrong - What A Wonderful World\n8. Dusty Springfield - The Look Of Love\n9. Nina Simone - My Baby Just Cares For Me\n10. Frank Sinatra - Love And Marriage\n11. Nat King Cole - L.O.V.E.\n12. Etta James - At Last\n13. Lionel Richie & Diana Ross - Endless Love\n14. Bangles - Eternal Flame\n15. Angry Anderson - Suddenly\n16. Shania Twain - From This Moment On\n17. Boyzone - No Matter What\n18. Spandau Ballet - True\n19. Marvin Gaye - Lets Get It On\n20. Peabo Bryson & Roberta Flack - Tonight, I Celebrate My Love\nCD 2\n1. Barry White - You're The First, The Last, My Everything\n2. Andy Williams - Cant Take My Eyes Off You\n3. Van Morrison - Brown Eyed Girl\n4. Chuck Berry - You Never Can Tell\n5. Tina Turner - The Best\n6. Mary Wells - My Guy\n7. Martha Reeves & The Vandellas - Third Finger, Left Hand\n8. John Paul Young - Love Is In The Air\n9. The Real Thing - You To Me Are Everything\n10. UB40 feat. Chrissie Hynde - I Got You Babe\n11. Jason Mraz - Im Yours\n12. The Proclaimers - Lets Get Married\n13. Cliff Richard - Congratulations\n14. Abba - Dancing Queen\n15. Kool & The Gang - Celebration\n16. Belinda Carlisle - Heaven Is A Place On Earth\n17. Huey Lewis & The News - The Power Of Love\n18. Robert Palme - Addicted To Love\n19. Billy Idol - White Wedding\n20. Katrina & The Waves - Walking On Sunshine\n21. Duran Duran - Rio\nCD 3\n1. The Black Eyed Peas - I Gotta Feeling\n2. Take That - Shine\n3. Eliza Doolittle - Pack Up\n4. Journey - Don't Stop Believin'\n5. Katy Perry - Hot N Cold\n6. Lady Gaga - Poker Face\n7. Bodyrockers - I Like The Way You Move\n8. Kylie Minogue - Cant Get You Out Of My Head\n9. Tom Jones with Mousse T. - Sexbomb\n10. The Mavericks - Dance The Night Away\n11. Elton John - Crocodile Rock\n12. The Four Tops - I Can't Help Myself (Sugar Pie, Honey Bunch)\n13. Frankie Valli & The Four Seasons - December 63 (Oh What A Night)\n14. Soft Cell - Tainted Love\n15. James Brown - I Got You (I Feel Good)\n16. Little Eva - The Locomotion\n17. Manfred Mann - Do Wah Diddy Diddy\n18. The Monkees - Daydream Believer\n19. Jeff Beck - Hi Ho Silver Lining\n20. Tony Christie - (Is This The Way To) Amarillo\n21. Blondie - The Tide Is High\n22. Kylie Minogue & Jason Donovan - Especially For You"],
+                "pubdate": ["2011-04-22"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s4429344.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "cargo×seira"
+                }],
+            "rating": {
+                "average": "7.0",
+                "min": 0,
+                "max": 10,
+                "numRaters": 58
+            },
+            "alt": "https://music.douban.com/subject/4929511/",
+            "mobile_link": "https://m.douban.com/music/subject/4929511/",
+            "id": "4929511",
+            "title": "FLOWER SHOWER",
+            "tags": [{
+                    "count": 18,
+                    "name": "加賀美セイラ"
+                }, {
+                    "count": 17,
+                    "name": "J-POP"
+                }, {
+                    "count": 16,
+                    "name": "日本"
+                }, {
+                    "count": 10,
+                    "name": "JPOP"
+                }, {
+                    "count": 7,
+                    "name": "翻唱"
+                }, {
+                    "count": 6,
+                    "name": "wedding"
+                }, {
+                    "count": 5,
+                    "name": "2010"
+                }, {
+                    "count": 3,
+                    "name": "Pop"
+                }],
+            "attrs": {
+                "singer": ["cargo×seira"],
+                "publisher": ["ワーナーミュージック・ジャパン"],
+                "media": ["CD"],
+                "title": ["FLOWER SHOWER"],
+                "discs": ["1"],
+                "tracks": ["結婚行進曲-Wedding March (英語詞カヴァー曲)", "Two Of Us", "長い間-All the years it took (英語詞カヴァー曲)", "LOVE LOVE LOVE -ENGLISH VERSION- (英語詞カヴァー曲)", "You’re Beautiful (英語詞カヴァー曲)", "HURRY HOME (そばにいるね) (英語詞カヴァー曲)", "Amazing Grace (英語詞カヴァー曲)", "恋におちたら (英語詞カヴァー曲)", "Story (英語詞カヴァー曲)", "If you love me (愛の讃歌) (英語詞カヴァー曲)", "ハナミズキ (英語詞カヴァー曲)", "Can’t Take My Eyes Off You (英語詞カヴァー曲)", "Butterfly (日本語カヴァー曲)"],
+                "pubdate": ["2010-08-04"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s4221438.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Q;indivi starring Rin Oikawa"
+                }],
+            "rating": {
+                "average": "8.8",
+                "min": 0,
+                "max": 10,
+                "numRaters": 295
+            },
+            "alt": "https://music.douban.com/subject/4294422/",
+            "mobile_link": "https://m.douban.com/music/subject/4294422/",
+            "id": "4294422",
+            "title": "Wedding Celebration",
+            "tags": [{
+                    "count": 57,
+                    "name": "日本"
+                }, {
+                    "count": 54,
+                    "name": "Q;indivi"
+                }, {
+                    "count": 47,
+                    "name": "Electronic"
+                }, {
+                    "count": 30,
+                    "name": "及川リン"
+                }, {
+                    "count": 27,
+                    "name": "J-POP"
+                }, {
+                    "count": 24,
+                    "name": "女声"
+                }, {
+                    "count": 20,
+                    "name": "2010"
+                }, {
+                    "count": 11,
+                    "name": "电子"
+                }],
+            "attrs": {
+                "singer": ["Q;indivi starring Rin Oikawa"],
+                "publisher": ["Independent Label Council Japan(IND/DAS)(M)"],
+                "media": ["CD"],
+                "title": ["Wedding Celebration"],
+                "discs": ["1"],
+                "tracks": ["1 Wedding March Part.2 （Wilhelm Richard Wagner）\n2 Lovin‘You （Minnie Riperton）\n3 Every Breath You Take（THE POLICE）\n4 Nocturne No.2 (夜想曲第2番) （Frédéric François Chopin）\n5 It Ain’t Over ‘Til It’s Over（LENNY KRAVITZ）\n6 Eternal Flame（the BANGLES）\n7 The Rose（Bette Midler）\n8 You Gotta Be（Des‘ree）\n9 Only Time（enya）\n10 You Raise Me Up（Secret Garden）\n11 Still Dreaming(オリジナル楽曲) ※Bonus Track"],
+                "pubdate": ["2010.04.03"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s2753045.jpg",
+            "alt_title": "爵士婚禮世紀饗宴",
+            "author": [{
+                    "name": "Various Artists"
+                }],
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 4
+            },
+            "alt": "https://music.douban.com/subject/2295609/",
+            "mobile_link": "https://m.douban.com/music/subject/2295609/",
+            "id": "2295609",
+            "title": "Jazz for Weddings",
+            "tags": [{
+                    "count": 5,
+                    "name": "wedding"
+                }, {
+                    "count": 3,
+                    "name": "Jazz"
+                }],
+            "attrs": {
+                "singer": ["Various Artists"],
+                "publisher": ["Universal Music"],
+                "media": ["Audio CD"],
+                "discs": ["1"],
+                "title": ["Jazz for Weddings"],
+                "version": ["Import"],
+                "tracks": ["01.  At Last - Etta James\n02.  This Guy's in Love With You - Willie Bobo\n03.  The Way You Look Tonight - Margaret Whiting\n04.  Unforgettable - Johnny Hartman\n05.  Embraceable You -Sarah Vaughan\n06.  Someday My Prince Will Come - Paul Desmond\n07.  Too Good to Be True - Joe williams feat. Shirley Horn\n08.  Someone to Watch over Me - Blossom Dearie\n09.  Love Is Here to Stay - Ella Fitzgerald & Louis Armstrong\n10.  Fever - Shirley Horn\n11.  I Want to Hold Your Hand - Gary McFarland\n12.  I Go for You - Sammy Davis Jr. & Carmen Mcrae\n13.  It Had to Be You - James Brown\n14.  Get Me to the Church on Time - Lorez Alexandria\n15.  Ive Got You Under My Skin - Horst Jankowski\n16.  Be My Husband - Nina Simone\n17.  Golden Ring - American Gypsy\n18.  And I Love Her - Ramsey Lewis Trio"],
+                "pubdate": ["2007-06-19"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s4362485.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Various Artists"
+                }],
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 0
+            },
+            "alt": "https://music.douban.com/subject/4836176/",
+            "mobile_link": "https://m.douban.com/music/subject/4836176/",
+            "id": "4836176",
+            "title": "The National Trust - the Wedding Album: Over Two Hours of the Most Romantic Wedding Music",
+            "tags": [{
+                    "count": 3,
+                    "name": "wedding"
+                }],
+            "attrs": {
+                "singer": ["Various Artists"],
+                "publisher": ["Sony BMG"],
+                "media": ["Audio CD"],
+                "title": ["The National Trust - the Wedding Album: Over Two Hours of the Most Romantic Wedding Music"],
+                "discs": ["1"],
+                "tracks": ["Trumpet Voluntary", "Wedding March", "Bridal March", "Jesu Joy Of Man's Desiring", "Ave Maria", "I Would Be True For There Are Those Who Trust Me", "O Perfect Love", "Love Divine All Loves Excelling", "Jerusalem", "Praise My Soul The King Of Heaven", "Lord Of All Hopefulness", "Canon In D", "Sheep May Safely Graze", "Toccata", "Arrival Of The Queen Of Sheba", "Can't Take My Eyes Off You - Williams, Andy (1)", "Unchained Melody - Robson & Jerome", "Cupid - Nash, Johnny", "What Are You Doing Sunday - Dawn (1)", "Suddenly - Ocean, Billy", "You're All That Matters To Me - Stigers, Curtis", "You're All I Need To Get By - Mathis, Johnny & Deniece Williams", "When I Fall In Love - Astley, Rick", "Best Of My Love - Emotions (1)", "United Together - Franklin, Aretha", "Best Thing That Ever Happened To Me - Knight, Gladys & The Pips", "Lean On Me - Withers, Bill", "Save The Last Dance For Me - Drifters (1)", "Eternal Flame - Bangles", "I Will Always Love You - Parton, Dolly"],
+                "pubdate": ["2005-03-07"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s22784123.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Westlife"
+                }, {
+                    "name": "Shane Filan"
+                }],
+            "rating": {
+                "average": "9.4",
+                "min": 0,
+                "max": 10,
+                "numRaters": 804
+            },
+            "alt": "https://music.douban.com/subject/6737996/",
+            "mobile_link": "https://m.douban.com/music/subject/6737996/",
+            "id": "6737996",
+            "title": "Beautiful In White",
+            "tags": [{
+                    "count": 209,
+                    "name": "Westlife"
+                }, {
+                    "count": 133,
+                    "name": "浪漫~温馨~幸福。"
+                }, {
+                    "count": 82,
+                    "name": "感动"
+                }, {
+                    "count": 78,
+                    "name": "Shane"
+                }, {
+                    "count": 76,
+                    "name": "幸福"
+                }, {
+                    "count": 66,
+                    "name": "卡农"
+                }, {
+                    "count": 52,
+                    "name": "爱尔兰"
+                }, {
+                    "count": 50,
+                    "name": "欧美"
+                }],
+            "attrs": {
+                "singer": ["Westlife", "Shane Filan"],
+                "publisher": ["www.westlife.com"],
+                "media": ["数字(Digital)"],
+                "title": ["Beautiful In White"],
+                "version": ["非发行歌曲"],
+                "tracks": ["beautiful in white"],
+                "pubdate": ["2010-4-26"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s6991865.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Chester See"
+                }],
+            "rating": {
+                "average": "8.9",
+                "min": 0,
+                "max": 10,
+                "numRaters": 51
+            },
+            "alt": "https://music.douban.com/subject/6971506/",
+            "mobile_link": "https://m.douban.com/music/subject/6971506/",
+            "id": "6971506",
+            "title": "From LA To Rome",
+            "tags": [{
+                    "count": 10,
+                    "name": "ChesterSee"
+                }, {
+                    "count": 8,
+                    "name": "欧美"
+                }, {
+                    "count": 6,
+                    "name": "幸福"
+                }, {
+                    "count": 5,
+                    "name": "浪漫"
+                }, {
+                    "count": 5,
+                    "name": "两地恋情"
+                }, {
+                    "count": 4,
+                    "name": "终成眷属"
+                }, {
+                    "count": 3,
+                    "name": "阳光"
+                }, {
+                    "count": 3,
+                    "name": "好"
+                }],
+            "attrs": {
+                "singer": ["Chester See"],
+                "publisher": ["Independent"],
+                "media": ["数字(Digital)"],
+                "title": ["From LA To Rome"],
+                "discs": ["1"],
+                "version": ["单曲"],
+                "tracks": ["01. From LA To Rome"],
+                "pubdate": ["2009-04-16"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s3909043.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Various Artists"
+                }],
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 0
+            },
+            "alt": "https://music.douban.com/subject/3892713/",
+            "mobile_link": "https://m.douban.com/music/subject/3892713/",
+            "id": "3892713",
+            "title": "Wedding Songs",
+            "tags": [{
+                    "count": 3,
+                    "name": "wedding"
+                }],
+            "attrs": {
+                "singer": ["Various Artists"],
+                "publisher": ["Blackberry Records"],
+                "media": ["Audio CD"],
+                "title": ["Wedding Songs"],
+                "discs": ["1"],
+                "tracks": ["What God Has Joined Together - Jones, Stan", "All My Life - Bennett, Rory", "Time After Time - Hyman, Robert A.", "We've Only Just Begun - Nichols, Roger", "If It Wasn't for You - Evans, Pharis Jr.", "Hand in Hand - Jones, Stan", "Here and Now - Elliott, Damon", "For You - Evans, Pharis Jr.", "Because of You - Evans, Pharis Jr.", "Special Place - Williams, Melvin [1", "Because You Loved Me - Warren, Diane", "Allow Me - Evans, Pharis Jr."],
+                "pubdate": ["2007-04-03"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s3139829.jpg",
+            "alt_title": "婚礼音乐精选集",
+            "author": [{
+                    "name": "S.E.N.S."
+                }],
+            "rating": {
+                "average": "8.4",
+                "min": 0,
+                "max": 10,
+                "numRaters": 220
+            },
+            "alt": "https://music.douban.com/subject/1981652/",
+            "mobile_link": "https://m.douban.com/music/subject/1981652/",
+            "id": "1981652",
+            "title": "ブライダル・ベスト・アルバム～Sweetheart Story",
+            "tags": [{
+                    "count": 69,
+                    "name": "S.E.N.S."
+                }, {
+                    "count": 49,
+                    "name": "日本"
+                }, {
+                    "count": 45,
+                    "name": "NewAge"
+                }, {
+                    "count": 27,
+                    "name": "S.E.N.S"
+                }, {
+                    "count": 25,
+                    "name": "纯音乐"
+                }, {
+                    "count": 18,
+                    "name": "神思者"
+                }, {
+                    "count": 15,
+                    "name": "New-Age"
+                }, {
+                    "count": 7,
+                    "name": "1997"
+                }],
+            "attrs": {
+                "singer": ["S.E.N.S."],
+                "publisher": ["BMG JAPAN"],
+                "media": ["CD"],
+                "title": ["ブライダル・ベスト・アルバム～Sweetheart Story"],
+                "discs": ["1"],
+                "version": ["专辑"],
+                "tracks": ["1. スウィートハート・ストーリー\n2. 陽光\n3. プロローグ\n4. 出逢った頃の君でいて\n5. 人と時と風の中で\n6. プライム・シーズン\n7. アフロディーテ~ウェディング・スペシャル・ヴァージョン\n8. 海神\n9. r.~ウェディング・スペシャル・ヴァージョン\n10. リメンバリング・ミー\n11. 想い\n12. ペイル・ブルー・ストーリー\n13. 風のように\n14. バース"],
+                "pubdate": ["1997-03-21"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s3128547.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "班德瑞"
+                }, {
+                    "name": "狄恩馬丁"
+                }, {
+                    "name": "Fred Astaire"
+                }, {
+                    "name": "Dean Martin"
+                }, {
+                    "name": "Birgitte Staernes"
+                }, {
+                    "name": "Louis Armstrong"
+                }, {
+                    "name": "la Fitzgerald"
+                }, {
+                    "name": "路意斯阿姆斯壯"
+                }, {
+                    "name": "艾拉費玆潔蘿"
+                }, {
+                    "name": "桃樂絲黛"
+                }, {
+                    "name": "佛雷德亞斯坦"
+                }, {
+                    "name": "華倫威爾斯"
+                }, {
+                    "name": "查爾斯崔尼"
+                }, {
+                    "name": "馬里奧蘭莎"
+                }, {
+                    "name": "Warren Wills"
+                }],
+            "rating": {
+                "average": "8.3",
+                "min": 0,
+                "max": 10,
+                "numRaters": 39
+            },
+            "alt": "https://music.douban.com/subject/3102240/",
+            "mobile_link": "https://m.douban.com/music/subject/3102240/",
+            "id": "3102240",
+            "title": "超完美約會 / Perfect Date",
+            "tags": [{
+                    "count": 10,
+                    "name": "合辑"
+                }, {
+                    "count": 8,
+                    "name": "古典"
+                }, {
+                    "count": 4,
+                    "name": "经典"
+                }, {
+                    "count": 3,
+                    "name": "欧美"
+                }, {
+                    "count": 2,
+                    "name": "wedding"
+                }, {
+                    "count": 2,
+                    "name": "pop"
+                }, {
+                    "count": 1,
+                    "name": "男声"
+                }, {
+                    "count": 1,
+                    "name": "歌"
+                }],
+            "attrs": {
+                "singer": ["班德瑞", "狄恩馬丁", "Fred Astaire", "Dean Martin", "Birgitte Staernes", "Louis Armstrong", "la Fitzgerald", "路意斯阿姆斯壯", "艾拉費玆潔蘿", "桃樂絲黛", "佛雷德亞斯坦", "華倫威爾斯", "查爾斯崔尼", "馬里奧蘭莎", "Warren Wills"],
+                "publisher": ["金革唱片"],
+                "media": ["1CD"],
+                "title": ["超完美約會 / Perfect Date"],
+                "pubdate": ["20080528"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s2655461.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Depapepe"
+                }],
+            "rating": {
+                "average": "9.3",
+                "min": 0,
+                "max": 10,
+                "numRaters": 6140
+            },
+            "alt": "https://music.douban.com/subject/1457910/",
+            "mobile_link": "https://m.douban.com/music/subject/1457910/",
+            "id": "1457910",
+            "title": "Let's Go!!!",
+            "tags": [{
+                    "count": 1649,
+                    "name": "depapepe"
+                }, {
+                    "count": 1400,
+                    "name": "日本"
+                }, {
+                    "count": 1246,
+                    "name": "纯音乐"
+                }, {
+                    "count": 844,
+                    "name": "双吉他"
+                }, {
+                    "count": 731,
+                    "name": "吉他"
+                }, {
+                    "count": 454,
+                    "name": "guitar"
+                }, {
+                    "count": 288,
+                    "name": "轻音乐"
+                }, {
+                    "count": 175,
+                    "name": "J-pop"
+                }],
+            "attrs": {
+                "singer": ["Depapepe"],
+                "publisher": ["SME Records"],
+                "media": ["CD"],
+                "title": ["Let's Go!!!"],
+                "discs": ["1"],
+                "version": ["专辑"],
+                "tracks": ["1. Hi-D\n2. Start\n3. Wake Up\n4. Mtmm\n5. 蝴蝶\n6. 风向仪\n7. 钟摆嘉年华\n8. 雨后\n9. Wedding Bell\n10. Over The Sea\n11. 真是个好日子呢\n12. Flow"],
+                "pubdate": ["2005"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s4056917.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Johann Sebastian Bach"
+                }, {
+                    "name": "Ludwig van Beethoven"
+                }, {
+                    "name": "George Frideric Handel, Jean-Joseph Mouret, Wolfgang Amadeus Mozart, Modest Musorsky, Johann Pachelbel, Henry Purcell, Antonio Vivaldi Jeremiah Clarke"
+                }, {
+                    "name": "Victoria Paterson (Violin)"
+                }, {
+                    "name": "Eriko Yoshida-Daly (Violin)"
+                }, {
+                    "name": "Max Buckholtz (Viola)"
+                }, {
+                    "name": "Eliza Evett (Cello)"
+                }, {
+                    "name": "Lumiere String Quartet"
+                }],
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 1
+            },
+            "alt": "https://music.douban.com/subject/4138287/",
+            "mobile_link": "https://m.douban.com/music/subject/4138287/",
+            "id": "4138287",
+            "title": "Wedding Music",
+            "tags": [{
+                    "count": 2,
+                    "name": "wedding"
+                }, {
+                    "count": 1,
+                    "name": "test"
+                }],
+            "attrs": {
+                "singer": ["Johann Sebastian Bach", "Ludwig van Beethoven", "George Frideric Handel, Jean-Joseph Mouret, Wolfgang Amadeus Mozart, Modest Musorsky, Johann Pachelbel, Henry Purcell, Antonio Vivaldi Jeremiah Clarke", "Victoria Paterson (Violin)", "Eriko Yoshida-Daly (Violin)", "Max Buckholtz (Viola)", "Eliza Evett (Cello)", "Lumiere String Quartet"],
+                "publisher": ["Lumiere Records"],
+                "media": ["Audio CD"],
+                "title": ["Wedding Music"],
+                "discs": ["1"],
+                "tracks": ["Largo (George Frideric Handel)", "Jesu, Joy of Man's Desiring (Johann Sebastian Bach)", "Adagio from Ave Verum (Wolfgang Amadeus Mozart)", "Largo from Winter (Antonio Vivaldi)", "Air from Suite No. 3 (Johann Sebastian Bach)", "Canon (Johann Pachelbel)", "Trumpet Voluntary (Jeremiah Clarke)", "Promenade from Pictures at an Exhibition (Modest Musorsky)", "Hornpipe from Water Music (George Frideric Handel)", "La Rejouissance from Royal Fireworks (George Frideric Handel)", "Ode to Joy from Symphony No. 9 (Ludwig van Beethoven)", "Trumpet Tune (Henry Purcell)", "Rondeau from Premi�re Suite (Jean-Joseph Mouret)", "Spring from The Four Seasons (Antonio Vivaldi)"],
+                "pubdate": ["2001-02-16"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s4019152.jpg",
+            "alt_title": "",
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 1
+            },
+            "alt": "https://music.douban.com/subject/4090586/",
+            "mobile_link": "https://m.douban.com/music/subject/4090586/",
+            "id": "4090586",
+            "title": "Wedding Music",
+            "tags": [{
+                    "count": 2,
+                    "name": "wedding"
+                }],
+            "attrs": {
+                "publisher": ["Naxos"],
+                "media": ["Audio CD"],
+                "title": ["Wedding Music"],
+                "discs": ["1"],
+                "tracks": ["Wedding March", "Wedding March", "Toccata", "Toccata", "Trumpet Tune", "Largo", "[Unspecified] In dulbi jubilo", "Jesu Joy of Man's Desiring", "Sheep May Safely Graze"],
+                "pubdate": ["1993-01-01"]
+            }
+        }, {
+            "image": "https://img3.doubanio.com/spic/s25790980.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Christophe Beck"
+                }],
+            "rating": {
+                "average": "9.3",
+                "min": 0,
+                "max": 10,
+                "numRaters": 195
+            },
+            "alt": "https://music.douban.com/subject/21370875/",
+            "mobile_link": "https://m.douban.com/music/subject/21370875/",
+            "id": "21370875",
+            "title": "Paperman (Original Score)",
+            "tags": [{
+                    "count": 57,
+                    "name": "OST"
+                }, {
+                    "count": 20,
+                    "name": "Soundtrack"
+                }, {
+                    "count": 18,
+                    "name": "迪士尼"
+                }, {
+                    "count": 15,
+                    "name": "2012"
+                }, {
+                    "count": 13,
+                    "name": "美国"
+                }, {
+                    "count": 13,
+                    "name": "ChristopheBeck"
+                }, {
+                    "count": 9,
+                    "name": "电影原声"
+                }, {
+                    "count": 6,
+                    "name": "欧美"
+                }],
+            "attrs": {
+                "singer": ["Christophe Beck"],
+                "publisher": ["Walt Disney Records"],
+                "media": ["CD"],
+                "title": ["Paperman (Original Score)"],
+                "discs": ["1"],
+                "version": ["单曲"],
+                "tracks": ["1.Paperman"],
+                "pubdate": ["2012-12-18"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s6927749.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "アンドレ・ギャニオン"
+                }],
+            "rating": {
+                "average": 0,
+                "min": 0,
+                "max": 10,
+                "numRaters": 1
+            },
+            "alt": "https://music.douban.com/subject/6838924/",
+            "mobile_link": "https://m.douban.com/music/subject/6838924/",
+            "id": "6838924",
+            "title": "甘い結婚(TVサントラ)",
+            "tags": [{
+                    "count": 2,
+                    "name": "wedding"
+                }, {
+                    "count": 1,
+                    "name": "甘い結婚"
+                }, {
+                    "count": 1,
+                    "name": "Soundtrack"
+                }, {
+                    "count": 1,
+                    "name": "OST"
+                }],
+            "attrs": {
+                "singer": ["アンドレ・ギャニオン"],
+                "publisher": ["キティ"],
+                "media": ["CD"],
+                "title": ["甘い結婚(TVサントラ)"],
+                "discs": ["1"],
+                "version": ["Soundtrack"],
+                "tracks": ["組曲「Le Saint-Laurent」(Vers la Mer)~甘い結婚", "小さい春", "揺れる想い", "秘めた愛", "氷の哀しみ", "朝の陽射し", "音のない部屋", "愛のすべて", "音のない部屋(ピアノ・ソロ)", "閉ざされた夜", "小さい春(イノセント・ヴァージョン)", "遠い心", "愛のすべて(ピアノ・ソロ)"],
+                "pubdate": ["1998-02-11"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s1458358.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "Oneida"
+                }],
+            "rating": {
+                "average": "6.7",
+                "min": 0,
+                "max": 10,
+                "numRaters": 23
+            },
+            "alt": "https://music.douban.com/subject/1441025/",
+            "mobile_link": "https://m.douban.com/music/subject/1441025/",
+            "id": "1441025",
+            "title": "The Wedding",
+            "tags": [{
+                    "count": 12,
+                    "name": "Indie-Rock"
+                }, {
+                    "count": 6,
+                    "name": "Oneida"
+                }, {
+                    "count": 6,
+                    "name": "Indie"
+                }, {
+                    "count": 4,
+                    "name": "独立"
+                }, {
+                    "count": 3,
+                    "name": "Rock"
+                }, {
+                    "count": 2,
+                    "name": "wedding"
+                }, {
+                    "count": 1,
+                    "name": "树树木木~"
+                }, {
+                    "count": 1,
+                    "name": "封面儿"
+                }],
+            "attrs": {
+                "singer": ["Oneida"],
+                "publisher": ["Jagjaguwar"],
+                "media": ["CD"],
+                "discs": ["1"],
+                "title": ["The Wedding"],
+                "version": ["专辑"],
+                "tracks": ["1. The Eiger\n2. Lavender\n3. Spirits\n4. Run Through My Hair\n5. High Life\n6. Did I Die\n7. You're Drifting\n8. Charlemagne\n9. Know\n10. Heavenly Choir\n11. Leaves\n12. The Beginning Is Nigh\n13. August Morning Haze"],
+                "pubdate": ["2005-05-03"]
+            }
+        }, {
+            "image": "https://img1.doubanio.com/spic/s2400708.jpg",
+            "alt_title": "",
+            "author": [{
+                    "name": "O'Neill Brothers"
+                }],
+            "rating": {
+                "average": "8.5",
+                "min": 0,
+                "max": 10,
+                "numRaters": 13
+            },
+            "alt": "https://music.douban.com/subject/1759172/",
+            "mobile_link": "https://m.douban.com/music/subject/1759172/",
+            "id": "1759172",
+            "title": "A Day to Remember - Instrumental Music for Your Wedding Day",
+            "tags": [{
+                    "count": 2,
+                    "name": "纯音乐"
+                }, {
+                    "count": 2,
+                    "name": "wedding"
+                }, {
+                    "count": 1,
+                    "name": "ro"
+                }, {
+                    "count": 1,
+                    "name": "remember"
+                }, {
+                    "count": 1,
+                    "name": "day"
+                }, {
+                    "count": 1,
+                    "name": "a"
+                }],
+            "attrs": {
+                "singer": ["O'Neill Brothers"],
+                "publisher": ["Shamrock-N-Roll"],
+                "media": ["Audio CD"],
+                "title": ["A Day to Remember - Instrumental Music for Your Wedding Day"],
+                "discs": ["1"],
+                "version": ["专辑"],
+                "tracks": ["Falling in Love - Tim and Ryan O'Neill", "Wachet Auf - J.S. Bach", "Air on a G String - J.S. Bach", "Air (from Water Music) - Handel", "Reminiscent Joy - Tim and Ryan O'Neill", "Canon in D - Pachelbel", "Jesu, Joy of Man's Desiring - J.S. Bach", "The Wedding Song (There is Love) - Stookey", "Ave Maria - Schubert", "I Will Be Here - Steven Curtis Chapman", "The Gift of Love (Water is Wide melody)", "Spring (from The Four Seasons) - Vivaldi", "Ode to Joy - Beethoven", "From This Moment On - Shania Twain", "The Way You Look Tonight - Kern", "Forever in Love - Kenny G"],
+                "pubdate": ["2002-04-25"]
+            }
+        }]
+}
+

@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>ASC婚礼纪念照片墙</title>
+        <link href="css/photo.css" type="text/css" rel="stylesheet"></link>
+        <link rel="stylesheet" type="text/css" href="css/normalize_1.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/set1.css" />
+        <style>
+            html, body{
+                padding:0px;
+                margin:0px;
+                font-family: 'Raleway', sans-serif;
+                color:#1f1f1f;
+                height:100%;
+            }
+            body{
+                background:url("images/5-121106095005.gif");
+            }
+            .container{
+                max-width:820px;
+                background:rgba(0, 0, 0, 0.75);
+                margin:0px auto;
+                padding:0px 0px 0px 0px;
+                border:1px solid #111;
+                border-radius:4px;
+                box-shadow:0px 4px 5px rgba(0, 0, 0, 0.75);
+            }
+            .link{
+                font-size:16px;
+                font-weight:300;
+                text-align:center;
+                position:relative;
+                height:40px;
+                line-height:40px;
+                margin-top:0px;
+                overflow:hidden;
+                width:90%;
+                margin-left:5%;
+                cursor:pointer;
+            }
+            .link:after{
+                content: '';
+                position:absolute;
+                width:80%;
+                border-bottom:1px solid rgba(255, 255, 255, 0.5);
+                bottom:50%;
+                left:-100%;
+                transition-delay: all 0.5s;
+                transition: all 0.5s;
+            }
+            .link:hover:after,
+            .link.hover:after{
+                left:100%;
+            }
+            .link .text{
+                text-shadow:0px -40px 0px rgba(255, 255, 255, 1);
+                transition:all 0.75s;
+                transform:translateY(100%) translateZ(0);
+                transition-delay:all 0.25s;
+            }
+            .link:hover .text,
+            .link.hover .text{
+                text-shadow:0px -40px 0px rgba(255, 255, 255, 0);
+                transform:translateY(0%) translateZ(0) scale(1.1);
+                font-weight:600;
+            }</style>
+    </head>
+    <body background="img/5-121106095005.gif">
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div class="content">
+            <div class="grid">
+                <figure class="effect-layla">
+                    <img src="images/back4.jpg" alt="img06"/>
+                    <figcaption>
+                        <p>欢迎来到ASC婚礼纪.</p>
+                        <a href="#">View more</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90-2.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <script type="text/javascript">
+            // For Demo purposes only (show hover effect on mobile devices)
+            [].slice.call(document.querySelectorAll('a[href="#"')).forEach(function (el) {
+                el.addEventListener('click', function (ev) {
+                    ev.preventDefault();
+                });
+            });
+        </script>
+        <div class="container">
+            <table width="820" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td width="73"><div class="link">
+                            <div class="text"><a href="index.html">首页</a></div></div></td>
+                    <td width="77"> <div class="link">
+                            <div class="text"><a href="Production.html">婚品展示</a></div></div></td>
+                    <td width="94">  <div class="link">
+                            <div class="text"><a href="music.html">婚礼音乐</a></div></div></td>
+                    <td width="95">  <div class="link">
+                            <div class="text">项目案例</div></div></td>
+                    <td width="94"> <div class="link">
+                            <div class="text"><a href="Photo.html">婚礼照片墙</a></div></div></td>
+                    <td width="84">  <div class="link">
+                            <div class="text">联系我们</div>
+                        </div></td>
+                </tr>
+            </table></div>
+        <script>
+            var links = document.getElementsByClassName('link');
+            for (var i = 0; i <= links.length; i++)
+                addClass(i);
+            function addClass(id) {
+                setTimeout(function () {
+                    if (id > 0)
+                        links[id - 1].classList.remove('hover');
+                    links[id].classList.add('hover');
+                }, id * 750);
+            }
+        </script>
+        <div style="text-align:center;clear:both">
+            <script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <div class="container">
+            <ul id="example-1">
+                <template v-for="n in 10">  
+                    <img :src="images[n-1]" :class="nums[n-1]" width="50%"/>
+                </template>
+            </ul>
+        </div>
+        <div style="text-align:center;clear:both;">
+            <script src="/gg_bd_ad_720x90-2.js" type="text/javascript"></script>
+            <script src="/follow.js" type="text/javascript"></script>
+        </div>
+        <script>
+            var MYDATA = {} //定义全局变量 MYDATA
+            url = "Photo.jsp";
+            $.getJSON(url, parse_data);
+            function parse_data(imagejson) {
+                MYDATA = imagejson;
+                console.log(imagejson);
+                var images = []
+                var nums = []
+                for (var i = 0; i < 10; i++) {
+                    images[i] = MYDATA[i].url
+                    nums[i] = "pic" + (i + 1).toString()
+                }
+                var example1 = new Vue({
+                    el: '#example-1',
+                    data: {
+                        images: images,
+                        nums: nums
+                    }
+                })
+            }</script>    
+    </body>
+</html>
